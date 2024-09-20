@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPencil, faPoll, faWarning } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 import Posts from "./Posts";
-import allPosts from "./allPosts";
+import allPosts from "./allPost";
 import { useWaitForTransactionReceipt } from "wagmi";
 import {
 	useWriteForumCreatePoll,
